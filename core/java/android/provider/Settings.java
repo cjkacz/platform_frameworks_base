@@ -2694,6 +2694,11 @@ public final class Settings {
 	 * Stores the java DateFormat string for the date
 	 */
         public static final String STATUSBAR_CLOCK_DATE_FORMAT = "statusbar_clock_date_format";
+        /**
+         * Whether to show/hide status bar native battery percentage
+         * @hide
+         */
+        public static final String STATUS_BAR_NATIVE_BATTERY_PERCENTAGE = "status_bar_native_battery_percentage";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
