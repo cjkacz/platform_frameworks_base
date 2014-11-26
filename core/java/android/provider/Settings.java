@@ -2694,7 +2694,20 @@ public final class Settings {
 	 * Stores the java DateFormat string for the date
 	 */
         public static final String STATUSBAR_CLOCK_DATE_FORMAT = "statusbar_clock_date_format";
+
         /**
+         * show clear all recents button
+         *  @hide
+         */
+        public static final String SHOW_CLEAR_ALL_RECENTS = "show_clear_all_recents";
+
+        /**
+         * location of the clear all rectents button
+         * @hide
+         */
+        public static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
+
+         /**
          * Whether to show/hide status bar native battery percentage
          * @hide
          */
