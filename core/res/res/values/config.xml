@@ -2027,4 +2027,7 @@
 
     <!-- Whether to start in touch mode -->
     <bool name="config_defaultInTouchMode">true</bool>
+
+    <integer name="config_deviceHardwareWakeKeys">64</integer>
+ 
 </resources>
